@@ -4,18 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Betamac</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
   </head>
   <body>
-    <main>
-      <h1>Betamac</h1>
-      <form id="answer-form">
-        <label for="answer">17 × 8 = ?</label>
-        <input id="answer" name="answer" type="text" inputmode="numeric" autocomplete="off" autofocus required>
-        <button type="submit">Check answer</button>
-      </form>
-      <p id="feedback" role="status"></p>
-    </main>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
