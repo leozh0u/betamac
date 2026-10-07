@@ -50,7 +50,7 @@ button:hover {
 
 input:focus-visible,
 button:focus-visible {
-  outline: 2px solid #222;
+  outline: 2px solid #2563eb;
   outline-offset: 3px;
 }
 
